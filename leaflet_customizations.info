@@ -1,2 +1,7 @@
 name = Leaflet Customizations
-description = A little module to customize Leaflet - turns off the zoom with scroll wheel and adds a full screen option
+description = A little module to customize Leaflet - adds a full screen option
+core = 7.x
+package = Leaflet
+stylesheets[all][] = Control.FullScreen.css
+scripts[] = Control.FullScreen.js
+scripts[] = leaflet_customizations.js
